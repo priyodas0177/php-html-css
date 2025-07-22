@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-family: verdana;
+    background-color: aliceblue;
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 400px;
+    height: 570px;
+    padding: 20px;
+    bottom: 10px;
+}
+form p{
+    
+    font-family: verdana;
+    top: 20%;
+    font-size:20px;
+    font-weight: bold;
+}
+
+form h1{
+    position: absolute;
+    top:13%;
+    font-weight: bold;
+
+}
+span{
+    color: red;
+}
+
+input{
+    margin-top: 20px;
+    background: transparent;
+    
+}
+header{
+    position: absolute;
+    background-color: rgb(9, 9, 167);
+    top: 10px;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+header h2{
+    color: white;
+    margin-top: 20px;  
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+
+}
+.nav a{
+    position: relative;
+    left:85%;
+    color: white;
+}
+footer{
+    position: absolute;
+    background-color: rgb(25, 20, 20);
+    bottom: 10px;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+.footeraddress h2{
+    position: absolute;
+    color: white;
+    margin-top:10px;
+    left:0%;
+    font-size: small;
+}
+.footeraddress  h3{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    left:0%;
+    font-size: small;
+    
+}
+.basicinformation h2{
+    position: absolute;
+    margin-top:10px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h3{
+    position: absolute;
+    margin-top:30px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h4{
+    position: absolute;
+    margin-top:50px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+
+form span{
+    color: red;
+    
+}
+.submitbuttion button{
+    font-family: Verdana;
+    margin-top:20px;
+    padding:12px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#ecf0f1;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+.submitbuttion button:hover{
+    background: linear-gradient(-130deg,rgb(49, 196, 49),rgb(49, 196, 49));
+}
+.backbutton button{
+    position: absolute;
+    left: 40%;
+    top: 83%;
+    font-family: Verdana;
+    margin-top:20px;
+    padding:12px;
+    width:120px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#ecf0f1;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.backbutton button:hover{
+    background: linear-gradient(-130deg,rgba(0, 0, 255, 0.025),blue);
+
+}
+.logout button{
+    position: absolute;
+    top: 83%;
+    left: 53%;
+    font-family: Verdana;
+    margin-top:20px;
+    padding:12px;
+    width:160px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#ecf0f1;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.logout button:hover{
+    background: linear-gradient(-130deg,red,blue);
+
+}
+

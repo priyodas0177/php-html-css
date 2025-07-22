@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: verdana;
+    background-color: aliceblue;
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+}
+form h1{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-size: 30px;
+    margin: 30px;
+    font-weight: bold;
+
+}
+span{
+    color: red;
+}
+
+header{
+    position: absolute;
+    background-color:blue;
+    top: 10%;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+header h2{
+   
+    color: white;
+    margin-top: 20px;  
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+
+}
+.nav a{
+    position: relative;
+    left:85%;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(25, 20, 20);
+    bottom: 10px;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+.footeraddress h2{
+    position: absolute;
+    color: white;
+    margin-top:10px;
+    left:0%;
+    font-size: small;
+}
+.footeraddress  h3{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    left:0%;
+    font-size: small;
+    
+}
+.basicinformation h2{
+    position: absolute;
+    margin-top:10px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h3{
+    position: absolute;
+    margin-top:30px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h4{
+    position: absolute;
+    margin-top:50px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.registration button{
+    position: absolute;
+    top: 62%;
+    left: 46%;
+    font-family: Verdana;
+    margin-top:15px;
+    padding:12px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border-radius: 5px;
+    color:#ecf0f1;
+    cursor:pointer;
+    border:none; 
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15);
+}
+.registration button:hover{
+    background: linear-gradient(-130deg,green,green);
+}
+.login button{
+    position: absolute;
+    top: 72%;
+    left: 40%;
+    font-family: Verdana;
+    margin-top:15px;
+    padding:12px;
+    background: linear-gradient(130deg,#1abc70,#16a066);
+    border-radius: 5px;
+    color:#ecf0f1;
+    cursor:pointer;
+    border:none; 
+}
+
+.login button:hover{
+    background: linear-gradient(-130deg,#1abc70,#16a066);
+
+}
+
+
+
+
+
