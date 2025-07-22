@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: verdana;
+    background-color: aliceblue;
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+form h1{
+    position: absolute;
+    font-family: verdana;
+    top: 25%;
+    left: 40%;
+    font-size: 30px;
+    font-weight: bold;
+  
+
+}
+
+header{
+    position: absolute;
+    background-color:rgb(9, 9, 167);
+    top: 10px;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+header h2{
+   
+    color: white;
+    margin-top: 20px;  
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+
+}
+.nav a{
+    position: relative;
+    left:85%;
+    color: white;
+}
+footer{
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    height: 9vh;
+    width: 100%;
+    left: 0%;
+}
+.footeraddress h2{
+    position: absolute;
+    color: white;
+    margin-top:10px;
+    left:0%;
+    font-size: small;
+}
+.footeraddress  h3{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    left:0%;
+    font-size: small;
+    
+}
+
+.basicinformation h2{
+    position: absolute;
+    margin-top:10px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h3{
+    position: absolute;
+    margin-top:30px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.basicinformation h4{
+    position: absolute;
+    margin-top:50px;
+    color: white;
+    left:90%;
+    font-size: small;
+}
+.logout button{
+    position: absolute;
+    top: 62%;
+    left: 72%;
+    font-family: Verdana;
+    margin-top:20px;
+    padding:12px;
+    width:160px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#ecf0f1;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+ 
+}
+.backbutton button{
+    position: absolute;
+    left: 20%;
+    top: 62%;
+    font-family: Verdana;
+    margin-top:20px;
+    padding:12px;
+    width:120px;
+    background: linear-gradient(130deg,#1abc9c,#16a085);
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#ecf0f1;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    
+}
+.btn{
+    background: #fff;
+    color: darkred;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.btn:hover{
+    background:red;
+    color: #fff;
+}

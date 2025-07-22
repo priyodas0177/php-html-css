@@ -1,0 +1,2 @@
+kaj baki-> prepared satment, css,url validation(session validation),ajax
+doctoor add multiple days
